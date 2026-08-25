@@ -1342,6 +1342,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:SW_stab"
 			(pin_names
 				(offset 1.016)
@@ -4446,6 +4624,17 @@
 		)
 		(uuid "04a06201-edd8-4bea-a104-ea07d18f0879")
 	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 254 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0512b5dc-af51-4801-bafb-0c8724252795")
+	)
 	(hierarchical_label "PWR"
 		(shape input)
 		(at 165.1 90.17 0)
@@ -4457,18 +4646,7 @@
 		)
 		(uuid "10fd64b4-7cff-4003-819a-0fbab926b619")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 187.96 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13155d95-d4b1-4d01-9b3f-fbf02c719452")
-	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "3V3 MAIN"
 		(shape input)
 		(at 149.86 35.56 180)
 		(effects
@@ -4479,7 +4657,18 @@
 		)
 		(uuid "14f53030-6a5d-4fa7-9dd7-48fce84436e1")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "3V3 MAIN"
+		(shape input)
+		(at 214.63 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17106006-b960-487d-8f57-a35fe6572a88")
+	)
+	(hierarchical_label "BAT REV"
 		(shape input)
 		(at 187.96 25.4 0)
 		(effects
@@ -4490,7 +4679,51 @@
 		)
 		(uuid "1d263286-b8be-4302-97a7-867027e056c9")
 	)
-	(hierarchical_label "PWR"
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 224.79 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21e2b301-4847-4af3-ac32-242d305c50bc")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 212.09 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26195380-5d57-41da-81e4-d3de5f8d3392")
+	)
+	(hierarchical_label "3v3 REV"
+		(shape input)
+		(at 243.84 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28e087ce-5236-486e-b75c-6477f112966f")
+	)
+	(hierarchical_label "BAT MAIN"
+		(shape input)
+		(at 243.84 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f307d3c-c932-448b-a07c-7df5386ac71d")
+	)
+	(hierarchical_label "BAT MAIN"
 		(shape input)
 		(at 149.86 27.94 180)
 		(effects
@@ -4500,6 +4733,39 @@
 			(justify right)
 		)
 		(uuid "3d66869b-bcd4-4833-afef-b1f4e404b974")
+	)
+	(hierarchical_label "LED2"
+		(shape input)
+		(at 222.25 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "447c2fa9-f7db-4815-9abc-08ddbf2308e8")
+	)
+	(hierarchical_label "PWR"
+		(shape input)
+		(at 224.79 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "456a67aa-dd27-4616-8f5f-0c241b36cc3a")
+	)
+	(hierarchical_label "LED3"
+		(shape input)
+		(at 222.25 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45e90f53-d289-479e-afe9-2c49365eb80a")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -4523,7 +4789,51 @@
 		)
 		(uuid "513c9cf8-8100-4fbd-b9cb-8fb68f2a49c4")
 	)
+	(hierarchical_label "LED1"
+		(shape input)
+		(at 222.25 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85e9fb1b-1c0e-4e8f-9200-93eb0a783f00")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 224.79 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89bc71d6-ff69-4f9f-a55a-42836656146b")
+	)
 	(hierarchical_label "PWR"
+		(shape input)
+		(at 254 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8be515cd-6a7a-4f47-a156-7984c7a0a7db")
+	)
+	(hierarchical_label "BAT REV"
+		(shape input)
+		(at 243.84 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92c429a5-bf30-483e-9751-c7f67da359b2")
+	)
+	(hierarchical_label "BAT MAIN"
 		(shape input)
 		(at 149.86 25.4 180)
 		(effects
@@ -4533,6 +4843,17 @@
 			(justify right)
 		)
 		(uuid "92cad612-7cb7-4411-94b2-3ec422916d75")
+	)
+	(hierarchical_label "BAT MAIN"
+		(shape input)
+		(at 214.63 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9548af69-97a3-4950-b5e5-3b9f6f026956")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -4544,6 +4865,28 @@
 			(justify right)
 		)
 		(uuid "9a1a903b-81dc-4e91-a6bb-1baec65107e5")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 212.09 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8ec7063-96e9-4352-a963-2a3ef664ca0c")
+	)
+	(hierarchical_label "BAT REV"
+		(shape input)
+		(at 214.63 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aceaf174-14a3-4209-b0fd-57b83f0e3b92")
 	)
 	(hierarchical_label "LED1"
 		(shape input)
@@ -4557,6 +4900,28 @@
 		(uuid "b87affc7-b6c2-4c6f-ac9b-da9a35902c7d")
 	)
 	(hierarchical_label "GND"
+		(shape input)
+		(at 254 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba4330cd-8ef5-491c-9b91-a85dfb6adce2")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 212.09 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5362ed4-e00d-4660-8539-6945a5dd64e2")
+	)
+	(hierarchical_label "3v3 REV"
 		(shape input)
 		(at 187.96 35.56 0)
 		(effects
@@ -4600,6 +4965,17 @@
 		)
 		(uuid "d8ab4e10-1388-4ae2-af5c-d5a76dd4d435")
 	)
+	(hierarchical_label "BAT REV"
+		(shape input)
+		(at 187.96 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eec6afa2-78d2-4a09-9514-645443fb399c")
+	)
 	(hierarchical_label "LED2"
 		(shape input)
 		(at 187.96 40.64 0)
@@ -4621,6 +4997,86 @@
 			(justify left)
 		)
 		(uuid "fef68879-e942-4585-b1f0-8445a624e72d")
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 219.71 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01ce377e-50c7-4f8b-af13-19d1424cdd2b")
+		(property "Reference" "JP2"
+			(at 219.71 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR SIDE A"
+			(at 219.71 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 219.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 219.71 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68f4576e-ab19-4d44-b6c7-d0147c188d6c")
+		)
+		(pin "2"
+			(uuid "59b74e33-ce77-45ac-888d-04596b18327b")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
@@ -4654,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 41.91 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4702,6 +5158,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 219.71 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "072a0d5e-baac-4c73-b2e1-907667601ff8")
+		(property "Reference" "JP3"
+			(at 219.71 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND SIDE A"
+			(at 219.71 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 219.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 219.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac4007f7-4000-4e9d-a9d9-c74f1d99e392")
+		)
+		(pin "2"
+			(uuid "d2156af4-e4d5-4cee-abed-b1151ba58b9c")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 67.31 22.86 0)
 		(unit 1)
@@ -4733,7 +5269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 67.31 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -5121,7 +5657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5303,7 +5839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 29.21 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5361,7 +5897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c335fec-25bd-4a7b-9b2d-f31070ab342a")
-		(property "Reference" "SW33"
+		(property "Reference" "SW32"
 			(at 92.71 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5382,7 +5918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 92.71 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5423,7 +5959,7 @@
 		(instances
 			(project "merope3"
 				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
-					(reference "SW33")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -5461,7 +5997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 80.01 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5643,7 +6179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 80.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5804,7 +6340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c13c980-3340-4d62-84ea-c5b8d24d43d2")
-		(property "Reference" "SW31"
+		(property "Reference" "SW30"
 			(at 67.31 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5825,7 +6361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 67.31 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5866,7 +6402,167 @@
 		(instances
 			(project "merope3"
 				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
-					(reference "SW31")
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 248.92 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d2f9254-6f07-4937-a5f2-c07d9e67a860")
+		(property "Reference" "JP5"
+			(at 248.92 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR SIDE B"
+			(at 248.92 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 248.92 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 248.92 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bae9138-eedc-4a3b-a450-60723d6b5300")
+		)
+		(pin "2"
+			(uuid "ae79a5ec-a18f-4a6d-9dac-515bda76ad94")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 248.92 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fe9e5fe-351c-4ab9-87ed-3bccfdb0523b")
+		(property "Reference" "JP4"
+			(at 248.92 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3 SIDE B"
+			(at 248.92 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 248.92 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 248.92 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "530039e1-5f04-4d7f-93dc-e52177dde0e2")
+		)
+		(pin "2"
+			(uuid "06edcf87-7458-4950-8b72-3d3220f87cc3")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -6293,7 +6989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 80.01 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -6475,7 +7171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 41.91 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6657,7 +7353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 105.41 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -6942,7 +7638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 67.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7433,7 +8129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 105.41 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7512,7 +8208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 29.21 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7591,7 +8287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7670,7 +8366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 118.11 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7852,7 +8548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 54.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7931,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8010,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8089,7 +8785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 54.61 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -8234,6 +8930,86 @@
 			(project "merope3"
 				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 219.71 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "824ea3de-648e-4582-9667-098cc808bf33")
+		(property "Reference" "JP1"
+			(at 219.71 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3 SIDE A"
+			(at 219.71 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 219.71 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 219.71 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e505430-77dd-4af1-a530-2f1810728444")
+		)
+		(pin "2"
+			(uuid "0810954f-5d9b-45c7-9070-4e4ae3dc7edf")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -8540,6 +9316,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 248.92 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9528b0bf-01c1-4f45-aaeb-76ee9a245b08")
+		(property "Reference" "JP6"
+			(at 248.92 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND SIDE B"
+			(at 248.92 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 248.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 248.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec26bb49-c577-4758-be1b-64188eef3aca")
+		)
+		(pin "2"
+			(uuid "24230cb9-c1eb-4253-8f99-ef5d574ecf4e")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 31.75 31.75 90)
 		(unit 1)
@@ -8643,6 +9499,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 217.17 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e8302ad-3694-4157-9dd7-2247bf937efb")
+		(property "Reference" "D37"
+			(at 215.8999 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 218.4399 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 217.17 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 217.17 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "ef431df9-fa2f-4525-a2fe-b6da593808f0")
+		)
+		(pin "1"
+			(uuid "8304d448-2456-4d8a-ace8-188712cc7afe")
+		)
+		(pin "5"
+			(uuid "f774a4a0-7f4d-4693-a1d4-3fccc62e780e")
+		)
+		(pin "6"
+			(uuid "83a48b06-8110-49b2-a661-f8a5feb0fe61")
+		)
+		(pin "2"
+			(uuid "2aa44bda-8c5e-477e-9835-93de3e0388c9")
+		)
+		(pin "3"
+			(uuid "30407183-76c2-4cff-b5bd-bc48f372cca0")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 105.41 104.14 0)
 		(unit 1)
@@ -8653,7 +9603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ed3b164-b02c-460c-8fbf-0a99e65c0171")
-		(property "Reference" "SW34"
+		(property "Reference" "SW33"
 			(at 105.41 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8674,7 +9624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 105.41 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8715,7 +9665,7 @@
 		(instances
 			(project "merope3"
 				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
-					(reference "SW34")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -8959,7 +9909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 92.71 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9038,7 +9988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 29.21 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9117,7 +10067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 41.91 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9196,7 +10146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 29.21 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9357,7 +10307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c121c7e7-c168-40ec-b8f0-64e14714716c")
-		(property "Reference" "SW35"
+		(property "Reference" "SW34"
 			(at 118.11 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +10328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 118.11 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9419,7 +10369,7 @@
 		(instances
 			(project "merope3"
 				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
-					(reference "SW35")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -9618,7 +10568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9800,7 +10750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 67.31 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10291,7 +11241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 92.71 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10349,7 +11299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d77df897-4e07-4f58-b13b-39fe7fd46875")
-		(property "Reference" "SW32"
+		(property "Reference" "SW31"
 			(at 80.01 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10370,7 +11320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 80.01 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10411,7 +11361,7 @@
 		(instances
 			(project "merope3"
 				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
-					(reference "SW32")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -10552,7 +11502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 67.31 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10631,7 +11581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 92.71 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10710,7 +11660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 54.61 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10892,7 +11842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Scotto:MX_Solder_1.00u_Reversible"
 			(at 54.61 43.18 0)
 			(hide yes)
 			(show_name no)

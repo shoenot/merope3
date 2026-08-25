@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "gbr/",
       "specctra_dsn": "",
       "step": "../../../../run/media/shurjo/External/merope3.step",
       "vrml": ""
@@ -685,7 +685,7 @@
         "uuid": "bf2a820a-aac6-401c-bd50-99296254bc62"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D37,SW30,SW_RST1,JP1-8",
     "variants": []
   },
   "sheets": [
