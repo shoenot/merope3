@@ -938,6 +938,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
@@ -4615,7 +4769,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 187.325 80.645 180)
+		(at 180.34 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4634,6 +4788,28 @@
 			(justify left)
 		)
 		(uuid "0512b5dc-af51-4801-bafb-0c8724252795")
+	)
+	(hierarchical_label "LED_R2"
+		(shape input)
+		(at 252.73 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e47ad2d-2b27-4b9d-8cbd-fefa6653fd81")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 214.63 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f2b7507-f2a1-4366-8716-529f453c0d52")
 	)
 	(hierarchical_label "PWR"
 		(shape input)
@@ -4679,6 +4855,17 @@
 		)
 		(uuid "1d263286-b8be-4302-97a7-867027e056c9")
 	)
+	(hierarchical_label "LED_R2"
+		(shape input)
+		(at 190.5 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21b0bdb3-dfe1-4ae4-a4ab-7851ea8c94fc")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 224.79 43.18 0)
@@ -4692,14 +4879,14 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 212.09 76.2 180)
+		(at 214.63 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "26195380-5d57-41da-81e4-d3de5f8d3392")
+		(uuid "23e46e4a-30bc-4dec-a430-be5d289196b6")
 	)
 	(hierarchical_label "3v3 REV"
 		(shape input)
@@ -4723,6 +4910,39 @@
 		)
 		(uuid "2f307d3c-c932-448b-a07c-7df5386ac71d")
 	)
+	(hierarchical_label "LED_R3"
+		(shape input)
+		(at 242.57 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3781f9fd-28fe-4b00-86ca-9decc44f8dd0")
+	)
+	(hierarchical_label "LED_R3"
+		(shape input)
+		(at 190.5 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38f7df54-406e-4d3b-a0bb-22b7fbc86fcd")
+	)
+	(hierarchical_label "LED_R1"
+		(shape input)
+		(at 224.79 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cc16fd0-fb1e-4fb1-9bc2-12a382597c46")
+	)
 	(hierarchical_label "BAT MAIN"
 		(shape input)
 		(at 149.86 27.94 180)
@@ -4733,17 +4953,6 @@
 			(justify right)
 		)
 		(uuid "3d66869b-bcd4-4833-afef-b1f4e404b974")
-	)
-	(hierarchical_label "LED2"
-		(shape input)
-		(at 222.25 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "447c2fa9-f7db-4815-9abc-08ddbf2308e8")
 	)
 	(hierarchical_label "PWR"
 		(shape input)
@@ -4756,17 +4965,6 @@
 		)
 		(uuid "456a67aa-dd27-4616-8f5f-0c241b36cc3a")
 	)
-	(hierarchical_label "LED3"
-		(shape input)
-		(at 222.25 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "45e90f53-d289-479e-afe9-2c49365eb80a")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 165.1 92.71 0)
@@ -4778,27 +4976,16 @@
 		)
 		(uuid "4f8613ec-d8bc-4679-a8f1-a1255d832ac0")
 	)
-	(hierarchical_label "LED2"
+	(hierarchical_label "LED_R2"
 		(shape input)
-		(at 197.485 80.645 0)
+		(at 224.79 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "513c9cf8-8100-4fbd-b9cb-8fb68f2a49c4")
-	)
-	(hierarchical_label "LED1"
-		(shape input)
-		(at 222.25 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85e9fb1b-1c0e-4e8f-9200-93eb0a783f00")
+		(uuid "80156036-594a-4a73-b5a6-c42bfb047df6")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -4844,6 +5031,17 @@
 		)
 		(uuid "92cad612-7cb7-4411-94b2-3ec422916d75")
 	)
+	(hierarchical_label "LED_R1"
+		(shape input)
+		(at 261.62 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9542e932-33c3-4148-914d-9e7d0ae08d9e")
+	)
 	(hierarchical_label "BAT MAIN"
 		(shape input)
 		(at 214.63 34.29 180)
@@ -4857,7 +5055,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 187.325 85.725 180)
+		(at 180.34 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4865,17 +5063,6 @@
 			(justify right)
 		)
 		(uuid "9a1a903b-81dc-4e91-a6bb-1baec65107e5")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 212.09 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8ec7063-96e9-4352-a963-2a3ef664ca0c")
 	)
 	(hierarchical_label "BAT REV"
 		(shape input)
@@ -4888,16 +5075,27 @@
 		)
 		(uuid "aceaf174-14a3-4209-b0fd-57b83f0e3b92")
 	)
-	(hierarchical_label "LED1"
+	(hierarchical_label "LED_R3"
 		(shape input)
-		(at 197.485 85.725 0)
+		(at 224.79 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b87affc7-b6c2-4c6f-ac9b-da9a35902c7d")
+		(uuid "b2412ec5-ce09-4f2e-9fc6-459b65f0f36f")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 214.63 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b56bedda-26da-4380-b254-6b5134113baa")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -4910,16 +5108,16 @@
 		)
 		(uuid "ba4330cd-8ef5-491c-9b91-a85dfb6adce2")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "LED3"
 		(shape input)
-		(at 212.09 86.36 180)
+		(at 242.57 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c5362ed4-e00d-4660-8539-6945a5dd64e2")
+		(uuid "c2bcd3db-ec06-43c6-9d6f-60c357065d29")
 	)
 	(hierarchical_label "3v3 REV"
 		(shape input)
@@ -4932,16 +5130,16 @@
 		)
 		(uuid "d0350d22-3160-4274-be32-97f053642cd1")
 	)
-	(hierarchical_label "LED3"
+	(hierarchical_label "LED1"
 		(shape input)
-		(at 197.485 75.565 0)
+		(at 261.62 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d1a3b889-899c-44df-8d64-54e1a93db74d")
+		(uuid "d2ce8df3-0791-4bd7-85f9-561447e7ef8e")
 	)
 	(hierarchical_label "LED3"
 		(shape input)
@@ -4956,7 +5154,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 187.325 75.565 180)
+		(at 180.34 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4975,6 +5173,17 @@
 			(justify left)
 		)
 		(uuid "eec6afa2-78d2-4a09-9514-645443fb399c")
+	)
+	(hierarchical_label "LED2"
+		(shape input)
+		(at 252.73 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f209e821-4bde-4b5e-b44b-41c8563153fd")
 	)
 	(hierarchical_label "LED2"
 		(shape input)
@@ -4997,6 +5206,17 @@
 			(justify left)
 		)
 		(uuid "fef68879-e942-4585-b1f0-8445a624e72d")
+	)
+	(hierarchical_label "LED_R1"
+		(shape input)
+		(at 190.5 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff55d20d-db46-411c-9548-7f475c7a6a97")
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
@@ -8675,6 +8895,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 261.62 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77ba3bb0-aa1a-4621-942f-1ab2276df563")
+		(property "Reference" "R3"
+			(at 255.27 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 257.81 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 261.62 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 261.62 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99dbc68c-b3c5-4bc8-8b48-1212c21cd16f")
+		)
+		(pin "2"
+			(uuid "7aeb0ba2-a411-447a-b624-ce9dc88e9f59")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 105.41 63.5 0)
 		(unit 1)
@@ -9017,7 +9317,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_RGB")
-		(at 192.405 80.645 180)
+		(at 185.42 81.28 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9028,7 +9328,7 @@
 		(fields_autoplaced yes)
 		(uuid "83c7a4f7-fe34-41fa-95b3-654dcaaab1cd")
 		(property "Reference" "D36"
-			(at 191.1349 71.755 90)
+			(at 184.1499 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9039,7 +9339,7 @@
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 193.6749 71.755 90)
+			(at 186.6899 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9050,7 +9350,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
-			(at 192.405 79.375 0)
+			(at 185.42 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9061,7 +9361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 192.405 79.375 0)
+			(at 185.42 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9072,7 +9372,7 @@
 			)
 		)
 		(property "Description" "RGB LED, 6 pin package"
-			(at 192.405 80.645 0)
+			(at 185.42 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9207,6 +9507,86 @@
 			(project "merope3"
 				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 242.57 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bc54c68-3bb9-4ee5-9e40-945736f47123")
+		(property "Reference" "R1"
+			(at 236.22 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 238.76 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 242.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 242.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e21feb27-1bcf-43b8-8074-60fe14780444")
+		)
+		(pin "2"
+			(uuid "0c332f60-028d-406f-9966-6d174f689721")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9499,100 +9879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 217.17 81.28 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e8302ad-3694-4157-9dd7-2247bf937efb")
-		(property "Reference" "D37"
-			(at 215.8999 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_RGB"
-			(at 218.4399 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
-			(at 217.17 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RGB LED, 6 pin package"
-			(at 217.17 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "ef431df9-fa2f-4525-a2fe-b6da593808f0")
-		)
-		(pin "1"
-			(uuid "8304d448-2456-4d8a-ace8-188712cc7afe")
-		)
-		(pin "5"
-			(uuid "f774a4a0-7f4d-4693-a1d4-3fccc62e780e")
-		)
-		(pin "6"
-			(uuid "83a48b06-8110-49b2-a661-f8a5feb0fe61")
-		)
-		(pin "2"
-			(uuid "2aa44bda-8c5e-477e-9835-93de3e0388c9")
-		)
-		(pin "3"
-			(uuid "30407183-76c2-4cff-b5bd-bc48f372cca0")
-		)
-		(instances
-			(project "merope3"
-				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
-					(reference "D37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 105.41 104.14 0)
 		(unit 1)
@@ -9769,6 +10055,100 @@
 			(project "merope3"
 				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGB")
+		(at 219.71 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a60725d5-8f39-4385-91de-ca36f87c40f7")
+		(property "Reference" "D37"
+			(at 218.4399 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_RGB"
+			(at 220.9799 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+			(at 219.71 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package"
+			(at 219.71 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "6a534768-4dab-4611-86f7-e4a087aa3ef0")
+		)
+		(pin "1"
+			(uuid "2dcb8446-bba4-4c24-bed6-7e2d8800f594")
+		)
+		(pin "5"
+			(uuid "75a4d140-937c-4f3f-b4e4-673982d147e8")
+		)
+		(pin "6"
+			(uuid "e466b849-bb9f-436d-b195-d1ba1aa56fbd")
+		)
+		(pin "2"
+			(uuid "d0c12f0d-f905-4936-af8e-f08a20c7ca64")
+		)
+		(pin "3"
+			(uuid "7ce55b3b-d6be-44a1-8d68-9fff077241d7")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -12090,6 +12470,86 @@
 			(project "merope3"
 				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
 					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 252.73 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff80d236-cc60-44c1-ad3b-e6ba457ce52a")
+		(property "Reference" "R2"
+			(at 246.38 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 248.92 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 252.73 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 252.73 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23c81466-ebe5-4b47-9ccb-13006f898379")
+		)
+		(pin "2"
+			(uuid "58e0ea6f-8dfc-4934-8b53-9dedc13d9fb6")
+		)
+		(instances
+			(project "merope3"
+				(path "/bf2a820a-aac6-401c-bd50-99296254bc62"
+					(reference "R2")
 					(unit 1)
 				)
 			)
