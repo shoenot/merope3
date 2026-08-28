@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -33,7 +33,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -52,7 +51,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_fdffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -62,7 +61,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "merope3_plate.kicad_prl",
+    "filename": "merope_plate.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

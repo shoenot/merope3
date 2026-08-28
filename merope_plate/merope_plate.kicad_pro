@@ -264,7 +264,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "merope3_plate.kicad_pro",
+    "filename": "merope_plate.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -313,8 +313,8 @@
     "legacy_lib_list": [],
     "top_level_sheets": [
       {
-        "filename": "merope3_plate.kicad_sch",
-        "name": "merope3_plate",
+        "filename": "merope_plate.kicad_sch",
+        "name": "merope_plate",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ]
