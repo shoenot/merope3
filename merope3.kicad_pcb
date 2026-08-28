@@ -2742,9 +2742,9 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 0 -1.8 90)
+			(at 2.4125 0 180)
 			(layer "F.SilkS")
-			(uuid "63554738-6067-4e77-ad67-78512f0e110b")
+			(uuid "07e50329-a2d1-4590-b36d-b586bb5b59fe")
 			(effects
 				(font
 					(size 1 1)
@@ -2755,7 +2755,8 @@
 		(property "Value" "PWR SIDE A"
 			(at 0 1.9 90)
 			(layer "F.Fab")
-			(uuid "26b403f2-249c-4d26-a6a5-cbc347d9cbe4")
+			(hide yes)
+			(uuid "2411399f-1009-4296-9c27-0c4ebc1eb33d")
 			(effects
 				(font
 					(size 1 1)
@@ -2768,7 +2769,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d021f573-3e13-49e5-9216-e744d515a932")
+			(uuid "a4ce9897-2ef1-4160-9f45-773fe1f17625")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2782,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "911fccff-cc17-4776-aa10-06824549fd2f")
+			(uuid "e39facc0-7311-4f56-9026-d7cbd431ec6c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,9 +7895,9 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.83 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "c13c8844-c541-4c5d-9929-234eca45c2e8")
+			(uuid "9ca888a5-f59f-4f20-bf6b-6c26250e4e12")
 			(effects
 				(font
 					(size 1 1)
@@ -7907,7 +7908,8 @@
 		(property "Value" "R_Small_US"
 			(at 0 1.83 0)
 			(layer "F.Fab")
-			(uuid "c69e9f64-0c78-4e90-98cc-7221b376149a")
+			(hide yes)
+			(uuid "69a31ade-1043-4390-b359-d216876e5379")
 			(effects
 				(font
 					(size 1 1)
@@ -7919,7 +7921,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62c34184-4db6-4da2-83e6-bb33fdb5bc74")
+			(uuid "82bf8219-c2a5-4dae-a89a-fd8e5fc2a112")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +7932,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7222b004-eb46-4211-9d31-16d2a8654c69")
+			(uuid "7f62cc71-d46d-4e30-b813-9acd728164cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8054,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 0 -1.83 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "1efd8110-fe7e-45d1-a50c-77b66c79cbd8")
 			(effects
@@ -8065,6 +8067,7 @@
 		(property "Value" "R_Small_US"
 			(at 0 1.83 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4380acb4-ce84-4184-bcdf-cc2a42893838")
 			(effects
 				(font
@@ -9257,9 +9260,9 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 -1.8 90)
+			(at 2.4125 0 180)
 			(layer "F.SilkS")
-			(uuid "3279ab13-6d2d-4d59-88ad-2bee7be9612c")
+			(uuid "f2dc4515-a7aa-4237-b93d-916fd932bdc9")
 			(effects
 				(font
 					(size 1 1)
@@ -9270,7 +9273,8 @@
 		(property "Value" "3V3 SIDE A"
 			(at 0 1.9 90)
 			(layer "F.Fab")
-			(uuid "8e70f430-dc62-4d26-bafc-4dfc629d5eb0")
+			(hide yes)
+			(uuid "e73a2eeb-f7e1-4217-a98e-1d6f64d947d6")
 			(effects
 				(font
 					(size 1 1)
@@ -9283,7 +9287,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7621910b-af3e-4231-875f-b5d5a46415be")
+			(uuid "6453320f-0aa1-4c93-a3fd-dc448db0b03c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9300,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "573de5c1-77b6-4bea-843f-cd0db665a519")
+			(uuid "cdd9a4ee-33f1-4e5c-8a32-d953e060b9c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,9 +9439,9 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP3"
-			(at 0 -1.8 90)
+			(at 2.4125 0 180)
 			(layer "F.SilkS")
-			(uuid "10fde68b-660b-416e-99e1-d08a088f17c4")
+			(uuid "cfd79247-baa3-4fd6-aa9c-104bf0b86f3f")
 			(effects
 				(font
 					(size 1 1)
@@ -9448,7 +9452,8 @@
 		(property "Value" "GND SIDE A"
 			(at 0 1.9 90)
 			(layer "F.Fab")
-			(uuid "e244bd19-a1bf-43ea-a114-1e7ea066f2d6")
+			(hide yes)
+			(uuid "c560dbb4-15e8-4e83-8bbd-0ac91a93d0be")
 			(effects
 				(font
 					(size 1 1)
@@ -9461,7 +9466,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55a0f96a-2158-4498-b096-b4e8c4c4b7c3")
+			(uuid "f9bd4d99-f5be-4998-93b2-cdaf253d6998")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,7 +9479,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c2e1c22-88e2-419b-b9a1-06a8f77fdf23")
+			(uuid "7f52198e-057b-4a92-8f53-7590af53f42d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9613,7 +9618,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.83 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "ddb4949d-c6fc-403f-87ff-20b365434782")
 			(effects
@@ -9626,6 +9631,7 @@
 		(property "Value" "R_Small_US"
 			(at 0 1.83 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "43852860-b306-4c27-b890-90b02e996982")
 			(effects
 				(font
@@ -10731,9 +10737,9 @@
 		(descr "http://cdn.sparkfun.com/datasheets/Components/LED/5060BRG4.pdf")
 		(tags "RGB LED 5050-6")
 		(property "Reference" "D36"
-			(at 0 -3.5 0)
+			(at 0 -0.0575 0)
 			(layer "F.SilkS")
-			(uuid "407fdbc9-9858-4ceb-bee0-e7aa2ce51372")
+			(uuid "7a69322c-b616-4a04-a8e6-aec677b0f8d9")
 			(effects
 				(font
 					(size 1 1)
@@ -10744,7 +10750,8 @@
 		(property "Value" "LED_RGB"
 			(at 0 3.3 0)
 			(layer "F.Fab")
-			(uuid "dd133416-575a-4bb0-9df8-cc99d74e5de4")
+			(hide yes)
+			(uuid "1f9ac287-0fe7-4e51-9ac3-2a87fccd192d")
 			(effects
 				(font
 					(size 1 1)
@@ -10757,7 +10764,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30597de8-0653-4409-94ae-4620fa776d0c")
+			(uuid "d2db71ac-37e6-4b23-a711-2ec3375fa2e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10770,7 +10777,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a6adb49-2e98-4b09-a2b9-366c85234af8")
+			(uuid "cc5f5e74-7e5e-4981-8af7-e4692a5a9fe3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12892,9 +12899,9 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP5"
-			(at 0 1.8 90)
+			(at 2.4125 0 180)
 			(layer "B.SilkS")
-			(uuid "1269a623-7e03-49df-b4c8-efe26232c6b5")
+			(uuid "e242a2fd-773f-4c22-b278-3e91c8652a2d")
 			(effects
 				(font
 					(size 1 1)
@@ -12906,7 +12913,8 @@
 		(property "Value" "PWR SIDE B"
 			(at 0 -1.9 90)
 			(layer "B.Fab")
-			(uuid "f4826821-46cf-4fac-b07c-4105cbf2e816")
+			(hide yes)
+			(uuid "d050ccca-2e09-4251-bc8c-58c4369621e6")
 			(effects
 				(font
 					(size 1 1)
@@ -12920,7 +12928,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "33f80eec-86fc-4c1b-98c5-d3283c64d197")
+			(uuid "439b15af-92e6-4677-9a47-55fd05d6f893")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12934,7 +12942,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "16c6cb95-5a86-45a9-9b92-f14554add2b5")
+			(uuid "8dcfc4ca-1247-4ac6-8ad7-64bdd0426433")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13074,9 +13082,9 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP4"
-			(at 0 1.8 90)
+			(at 2.4125 0 180)
 			(layer "B.SilkS")
-			(uuid "296d0da5-b0ad-46bb-903d-9ebed66f34f9")
+			(uuid "12d5ea1a-9b32-4cba-9cb4-54c400679e60")
 			(effects
 				(font
 					(size 1 1)
@@ -13088,7 +13096,8 @@
 		(property "Value" "3V3 SIDE B"
 			(at 0 -1.9 90)
 			(layer "B.Fab")
-			(uuid "7a23c1e1-6b50-47f1-bedc-8372e2d44b6f")
+			(hide yes)
+			(uuid "dd18f715-1355-4c4e-af1e-e4db6b7ee2a3")
 			(effects
 				(font
 					(size 1 1)
@@ -13102,7 +13111,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ee78dcad-116d-4749-90a2-d8b3be6548f7")
+			(uuid "60148bf9-3f75-4b19-99a0-ea0e1d60562f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13116,7 +13125,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a248aad8-655e-4004-9f59-a74903f1bf7f")
+			(uuid "35149771-7f8a-4b77-88ee-75afcc6f039a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14621,9 +14630,9 @@
 		(descr "http://cdn.sparkfun.com/datasheets/Components/LED/5060BRG4.pdf")
 		(tags "RGB LED 5050-6")
 		(property "Reference" "D37"
-			(at 0 3.5 0)
+			(at -0.01875 0 0)
 			(layer "B.SilkS")
-			(uuid "367d79e2-e109-4682-8b41-79fa0e8d5ddd")
+			(uuid "83bc5584-a7ec-44fb-9409-68c0ac1fcbdf")
 			(effects
 				(font
 					(size 1 1)
@@ -14635,7 +14644,8 @@
 		(property "Value" "LED_RGB"
 			(at 0 -3.3 0)
 			(layer "B.Fab")
-			(uuid "220814cf-2202-4328-80b4-7e75d85aa67e")
+			(hide yes)
+			(uuid "b54f4498-8161-43d2-88c2-267328c55205")
 			(effects
 				(font
 					(size 1 1)
@@ -14649,7 +14659,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "baa14354-9435-40a1-8e49-87f9b98605d6")
+			(uuid "f65b28ed-6f74-4424-a62c-f49465cf1305")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14663,7 +14673,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "75b28f5a-ea86-4913-a8b6-e11e4d23ed74")
+			(uuid "129e63eb-53e2-40cb-9577-921dd39bc5b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15722,9 +15732,9 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP6"
-			(at 0 1.8 90)
+			(at 2.4125 0 180)
 			(layer "B.SilkS")
-			(uuid "c68166df-6180-4d9c-ba06-5ffc310ba21d")
+			(uuid "116b6d5f-4b5b-4d34-a7a9-1705355ce45b")
 			(effects
 				(font
 					(size 1 1)
@@ -15736,7 +15746,8 @@
 		(property "Value" "GND SIDE B"
 			(at 0 -1.9 90)
 			(layer "B.Fab")
-			(uuid "71be8e78-5925-4baa-b3b1-1a287aef54d2")
+			(hide yes)
+			(uuid "19d41ad5-ec34-4223-afa9-9baa6395f9b5")
 			(effects
 				(font
 					(size 1 1)
@@ -15750,7 +15761,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "777c7416-b452-48c2-afe2-606fa5d909d0")
+			(uuid "72a6ac4d-237f-4443-b756-0d3672df7611")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15764,7 +15775,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3d0990e2-7166-4bf8-a313-1284b57b7c40")
+			(uuid "61af57b5-5843-4164-ab24-8b9f6f5b8945")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20689,18 +20700,6 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "cc9ab946-d01d-4a88-a687-67c4a89adb94")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify bottom mirror)
-			)
-		)
-		(fp_text user "1"
-			(at -5.715 13.2825 0)
-			(layer "B.SilkS")
-			(uuid "7975be7b-f9d9-4ae3-b8fc-a489a793bd42")
 			(effects
 				(font
 					(size 1 1)
